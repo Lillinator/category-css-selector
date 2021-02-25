@@ -1,0 +1,4 @@
+category_boxes_to_hide:
+  default: ""
+  type: string
+  description: Add classes of category boxes to hide. Append the class name to the string in the field above. Ensure that that the '.' in the class is present, and each class is separated by a comma. <br><br> For example -> .category-box-showcase, .category-box-2021-outreach <br><br> To find the class name, use the inspector and highlight over the category box you wish to remove. Look for the class that's applied to the same <div> element that contains the class .category-box'

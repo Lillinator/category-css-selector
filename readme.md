@@ -1,0 +1,1 @@
+# discourse-hide-category-boxes
