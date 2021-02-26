@@ -45,7 +45,7 @@ $link_selector: $category_hamburger;
 */
 @if (str-index($link_selector, "|")) {
   .hamburger-panel .menu-panel .category-links {
-    #{str-replace($box_selector, '|', ', ')} {
+    #{str-replace($link_selector, '|', ', ')} {
       display: none;
     }
   }
