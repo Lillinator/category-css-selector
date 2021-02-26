@@ -6,8 +6,10 @@ This is a [Discourse](https://discourse.org) theme component that allows you to 
 
 ## General Info
 
-**Plugin Name:** [Discourse Category Hider](https://github.com/keegangeorge/discourse-hide-categories)<br>
-**Author:** [Keegan George](https://github.com/keegangeorge)<br>
-**Version: 1.0**<br>
+🔌 **Plugin Name:** [Discourse Category Hider](https://github.com/keegangeorge/discourse-hide-categories)<br>
+🧑‍💻 **Author:** [Keegan George](https://github.com/keegangeorge)<br>
+#️⃣ **Version: 1.0**<br>
 
-[How do I install this theme component?](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682)
+❓ [Installing Theme Components](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682) <br>
+🐙 [GitHub Repository](https://github.com/keegangeorge/discourse-hide-categories) <br>
+💬 [Discourse Topic]()
