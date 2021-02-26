@@ -21,5 +21,8 @@ If your discourse website has a lot of categories and you would like to hide som
 
 🔭 [Preview on theme creator](https://theme-creator.discourse.org/theme/keegan/category-hider)
 
+Before:
 <img src="readme-images/before.png"></img>
+
+After:
 <img src="readme-images/after.png"></img>
