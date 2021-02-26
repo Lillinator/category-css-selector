@@ -1,5 +1,5 @@
 {
-    "name": "Discourse Hide Categories",
+    "name": "Discourse Category Hider",
     "component": true,
     "about_url": "https://github.com/keegangeorge/discourse-hide-categories",
     "authors": "Keegan George",
