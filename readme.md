@@ -57,7 +57,7 @@ In the settings, you can add what categories you would like to hide for either t
 
 To do that, you must add the HTML class name of the category box or category hamburger link.
 
-<img src="readme-images/settings.png" width="80%"></img>
+<img src="readme-images/settings.png" width="60%"></img>
 
 ### How do I find what class name a category is?
 
@@ -77,7 +77,7 @@ Step 3: Hover over the element you would like to identify the class of.
 
 The class name should appear in the tooltip box.
 
-<img src="readme-images/hamburger-inspector.png" width="80%"></img>
+<img src="readme-images/hamburger-inspector.png" width="50%"></img>
 
 For hamburger links, the class name should appear after the class `.category-link`.
 
