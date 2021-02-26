@@ -1,5 +1,73 @@
-.category-boxes {
-  #{$category_boxes_to_hide} {
-    display: none;
+// Fetch class list from settings:
+$box_selector: $category_boxes;
+$link_selector: $category_hamburger;
+
+// Category Boxes //
+
+/**
+* If multiple classes are set
+* replace pipe with comma and space
+*/
+@if (str-index($box_selector, "|")) {
+  .category-boxes {
+    #{str-replace($box_selector, '|', ', ')} {
+      display: none;
+    }
+  }
+}
+
+/**
+* When no classes given
+* do not apply any styles
+*/
+@elseif (str-length($box_selector) == 0) {
+  .category-boxes {
+    // do nothing
+  }
+}
+/**
+* If only one class is given
+* hide it
+*/
+@else {
+  .category-boxes {
+    #{$box_selector} {
+      display: none;
+    }
+  }
+}
+
+// Category Hamburger Links //
+
+/**
+* If multiple classes are set
+* replace pipe with comma and space
+*/
+@if (str-index($link_selector, "|")) {
+  .hamburger-panel .menu-panel .category-links {
+    #{str-replace($box_selector, '|', ', ')} {
+      display: none;
+    }
+  }
+}
+
+/**
+* When no classes given
+* do not apply any styles
+*/
+@elseif (str-length($link_selector) == 0) {
+  .hamburger-panel .menu-panel .category-links {
+    // do nothing
+  }
+}
+/**
+* If only one class is given
+* hide it
+*/
+@else {
+  .hamburger-panel .menu-panel .category-links {
+    #{$link_selector} {
+      display: none;
+    }
   }
 }
