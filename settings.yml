@@ -4,7 +4,7 @@ category_boxes:
   list_type: simple
   description: Add the class name for the category box you would like to hide. Ensure you include a '.category-link-' in the class name. <br><br> For example => .category-box-faq <br><br> To find the class name use the developer tools (inspector) and select the category box that is applied to the `<div>` element with the class .category-box applied to it. <br><br> Often, the class name for the category box will be the category title appended to the category-box in lowercase separated by dashes instead of spaces (ex. .category-box-faq)
 category_hamburger:
-  default: ".category-link-example-class"
+  default: ".category-example-class"
   type: list
   list_type: simple
-  description: Add the class name for the category link you would like to hide in the hamburger menu. Ensure you include a '.category-link-' in the class name. <br><br> For example => .category-link-faq <br><br> To find the class name use the developer tools (inspector) and select the category link that is applied to the `<div>` element with the class .category-link applied to it. <br><br> Often, the class name for the category box will be the category title appended to the category-link in lowercase separated by dashes instead of spaces (ex. .category-link-faq)
+  description: Add the class name for the category link you would like to hide in the hamburger menu. Ensure you include a '.category-' in the class name. <br><br> For example => .category-faq <br><br> To find the class name use the developer tools (inspector) and select the category link that is applied to the `<div>` element with the class .category-link applied to it. <br><br> Often, the class name for the category link will be the category title appended to the category- in lowercase separated by dashes instead of spaces (ex. .category-faq)
