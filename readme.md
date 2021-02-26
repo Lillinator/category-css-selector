@@ -69,11 +69,11 @@ If you adding a category box class, it will likely be in the format:<br> `.categ
 
 **To find the exact class name** you can use your web browser's developer tools:
 
-> Step 1: Open your browser's developer tools.<br> `Right-click > Inspect Element`
+Step 1: Open your browser's developer tools.<br> `Right-click > Inspect Element`
 
-> Step 2: Use the keyboard shortcut:<br> **macOS**: `cmd + shift + c` <br> **Windows**: `ctrl + shift + c`
+Step 2: Use the keyboard shortcut:<br> **macOS**: `cmd + shift + c` <br> **Windows**: `ctrl + shift + c`
 
-> Step 3: Hover over the element you would like to identify the class of.
+Step 3: Hover over the element you would like to identify the class of.
 
 The class name should appear in the tooltip box.
 
