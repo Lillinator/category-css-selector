@@ -20,9 +20,45 @@ If your discourse website has a lot of categories and you would like to hide som
 ## Preview
 
 🔭 [Preview on theme creator](https://theme-creator.discourse.org/theme/keegan/category-hider)
+<br>
 
-Before:
-<img src="readme-images/before.png"></img>
+_Before -> After_
 
-After:
-<img src="readme-images/after.png"></img>
+<div style="display: flex;">
+    <img src="readme-images/before.png" style="margin-right: 5px;" width="50%"></img>
+    <img src="readme-images/after.png" width="50%"></img>
+</div>
+
+<br>
+
+## Settings
+
+In the settings, you can add what categories you would like to hide for either the category boxes and/or the hamburger category items.
+
+To do that, you must add the HTML class name of the category box or category hamburger link.
+
+<img src="readme-images/settings.png" width="80%"></img>
+
+### How do I find what class name a category is?
+
+Often, the class name for the category will be the category name but separated by dashes.
+
+If your adding a hamburger class it will likely be in the format: `.category-your-category-name`
+
+If you adding a category box class, it will likely be in the format: `.category-box-your-category-name`
+
+**To find the exact class name** you can use your web browser's developer tools:
+
+Step 1: Open the developer tools. `Right click > Inspect Element`
+
+Step 2: Use the keyboard shortcut `cmd + shift + c` in macOS or `ctrl + shift + c` in Windows.
+
+Step 3: Hover over the element you would like to identify the class of.
+
+The class name should appear in the tooltip box.
+
+<img src="readme-images/hamburger-inspector.png" width="80%"></img>
+
+For hamburger links, the class name should appear after the class `.category-link`.
+
+For category boxes, the class name should appear after `.category-box`.
