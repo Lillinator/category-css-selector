@@ -15,7 +15,7 @@ If your discourse website has a lot of categories and you would like to hide som
 
 ❓ [Installing Theme Components](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682) <br>
 🐙 [GitHub Repository](https://github.com/keegangeorge/discourse-hide-categories) <br>
-💬 [Discourse Topic]()
+💬 [Discourse Topic](https://meta.discourse.org/t/category-hider-theme-component/181299)
 
 ## Installation
 
