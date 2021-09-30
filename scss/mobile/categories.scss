@@ -1,0 +1,18 @@
+$boxes: str-split($category_boxes_with_subcategories, '|');
+$list: str-split($category_list, '|');
+
+.category-list {
+  @each $box in $boxes {
+    [data-category-id='#{$box}'] {
+      display: none;
+    }
+  }
+}
+
+.category-list {
+  @each $list in $category_list {
+    [data-category-id='#{$list}'] {
+      display: none;
+    }
+  }
+}

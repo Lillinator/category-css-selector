@@ -1,0 +1,27 @@
+$boxes: str-split($category_boxes_with_subcategories, '|');
+$topic_boxes: str-split($category_boxes_wih_featured_topics, '|');
+$list: str-split($category_list, '|');
+
+.category-boxes {
+  @each $box in $boxes {
+    [data-category-id='#{$box}'] {
+      display: none;
+    }
+  }
+}
+
+.category-boxes-with-topics {
+  @each $topic_box in $topic_boxes {
+    .category-box-#{$topic_box} {
+      display: none;
+    }
+  }
+}
+
+.category-list {
+  @each $list in $category_list {
+    [data-category-id='#{$list}'] {
+      display: none;
+    }
+  }
+}
