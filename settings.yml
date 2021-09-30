@@ -1,10 +1,18 @@
-category_boxes:
-  default: ".category-box-example-class"
+category_boxes_with_subcategories:
+  default: ''
   type: list
-  list_type: simple
-  description: Add the class name for the category box you would like to hide. Ensure you include a '.category-link-' in the class name. <br><br> For example => .category-box-faq <br><br> To find the class name use the developer tools (inspector) and select the category box that is applied to the `<div>` element with the class .category-box applied to it. <br><br> Often, the class name for the category box will be the category title appended to the category-box in lowercase separated by dashes instead of spaces (ex. .category-box-faq)
+  list_type: category
+  description: 'Select which category boxes with subcategories you would like to hide.'
 category_hamburger:
-  default: ".category-example-class"
+  default: 'example-slug-category'
   type: list
-  list_type: simple
-  description: Add the class name for the category link you would like to hide in the hamburger menu. Ensure you include a '.category-' in the class name. <br><br> For example => .category-faq <br><br> To find the class name use the developer tools (inspector) and select the category link that is applied to the `<div>` element with the class .category-link applied to it. <br><br> Often, the class name for the category link will be the category title appended to the category- in lowercase separated by dashes instead of spaces (ex. .category-faq)
+  description: 'Enter the category slugs for each category you would like to hide in the hamburger menu.'
+category_boxes_wih_featured_topics:
+  default: 'example-slug-category'
+  type: list
+  description: 'Enter the category slugs for each category you would like to hide in the hamburger menu.'
+category_list:
+  default: ''
+  type: list
+  list_type: category
+  description: 'Select which categories from the category list to hide'

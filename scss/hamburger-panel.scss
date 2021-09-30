@@ -1,0 +1,9 @@
+$hamburger: str-split($category_hamburger, '|');
+
+.hamburger-panel .category-links {
+  @each $link in $hamburger {
+    .category-link.category-#{$link} {
+      display: none;
+    }
+  }
+}
