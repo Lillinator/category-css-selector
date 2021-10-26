@@ -49,8 +49,8 @@ Below is a quick start guide to setup your discourse theme. A more comprehensive
 _Before -> After_
 
 <div style="display: flex;">
-    <img src=".github/before.png" style="margin-right: 5px;" width="50%"></img>
-    <img src=".github/after.png" width="50%"></img>
+    <img src=".github/before.png" style="border: 1px solid lightgray; margin-right: 2px;" width="40%"></img>
+    <img style="border: 1px solid lightgray;" src=".github/after.png" width="40%"></img>
 </div>
 
 <br>
