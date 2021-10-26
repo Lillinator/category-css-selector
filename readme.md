@@ -59,14 +59,13 @@ _Before -> After_
 
 In the settings, you can add what categories you would like to hide for different instances/areas where categories appear.
 
-You can hide categories in:
+**You can hide categories in:**
+
 - Category Boxes with Subcategories
 - Hamburger Menu
 - Category Boxes with Featured Topics
 - Category List (this type always appears on mobile)
 
 For each setting use either the dropdown to select from the categories or enter the category slug.
-
-To do that, you must add the HTML class name of the category box or category hamburger link.
 
 <img src=".github/settings.png" width="60%"></img>
