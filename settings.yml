@@ -16,3 +16,11 @@ category_list:
   type: list
   list_type: category
   description: 'Select which categories from the category list to hide'
+hide_all_subcategories_in_hamburger:
+  default: false
+  type: bool
+  description: 'Select to hide all subcategories from appearing in the hamburger menu.'
+hide_all_subcategories_in_category_list:
+  default: false
+  type: bool
+  description: 'Select to hide all subcategories from appearing in the hamburger menu.'
