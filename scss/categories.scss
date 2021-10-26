@@ -19,8 +19,8 @@ $list: str-split($category_list, '|');
 }
 
 .category-list {
-  @each $list in $category_list {
-    [data-category-id='#{$list}'] {
+  @each $list_item in $list {
+    [data-category-id='#{$list_item}'] {
       display: none;
     }
   }
