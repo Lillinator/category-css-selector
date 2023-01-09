@@ -23,4 +23,4 @@ hide_all_subcategories_in_hamburger:
 hide_all_subcategories_in_category_list:
   default: false
   type: bool
-  description: 'Select to hide all subcategories from appearing in the hamburger menu.'
+  description: 'Select to hide all subcategories from appearing in the category list.'
