@@ -10,7 +10,7 @@ category_hamburger:
 category_boxes_wih_featured_topics:
   default: 'example-slug-category'
   type: list
-  description: 'Enter the category slugs for each category you would like to hide in the hamburger menu.'
+  description: 'Enter the category slugs for each category box you would like to hide.'
 category_list:
   default: ''
   type: list
