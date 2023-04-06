@@ -1,4 +1,4 @@
-$hamburger: str-split($category_hamburger, '|');
+$hamburger: str-split($category_hamburger, unquote("|"));
 
 .hamburger-panel .category-links {
   @each $link in $hamburger {
@@ -8,13 +8,13 @@ $hamburger: str-split($category_hamburger, '|');
   }
 }
 
-@if $hide_all_subcategories_in_hamburger == 'true' {
+@if $hide_all_subcategories_in_hamburger == "true" {
   .hamburger-panel .category-link.subcategory {
     display: none;
   }
 }
 
-@if $hide_all_subcategories_in_category_list == 'true' {
+@if $hide_all_subcategories_in_category_list == "true" {
   table.category-list {
     .subcategories,
     .subcategories-with-subcategories {

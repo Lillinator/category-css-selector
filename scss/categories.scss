@@ -1,10 +1,10 @@
-$boxes: str-split($category_boxes_with_subcategories, '|');
-$topic_boxes: str-split($category_boxes_wih_featured_topics, '|');
-$list: str-split($category_list, '|');
+$boxes: str-split($category_boxes_with_subcategories, unquote("|"));
+$topic_boxes: str-split($category_boxes_wih_featured_topics, unquote("|"));
+$list: str-split($category_list, unquote("|"));
 
 .category-boxes {
   @each $box in $boxes {
-    [data-category-id='#{$box}'] {
+    [data-category-id="#{$box}"] {
       display: none;
     }
   }
@@ -20,7 +20,7 @@ $list: str-split($category_list, '|');
 
 .category-list {
   @each $list_item in $list {
-    [data-category-id='#{$list_item}'] {
+    [data-category-id="#{$list_item}"] {
       display: none;
     }
   }
