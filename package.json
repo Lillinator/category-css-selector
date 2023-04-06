@@ -1,0 +1,10 @@
+{
+  "name": "discourse-hide-categories",
+  "version": "2.1.0",
+  "repository": "https://github.com/keegangeorge/discourse-hide-categories",
+  "author": "Discourse",
+  "license": "GPLV2",
+  "devDependencies": {
+    "eslint-config-discourse": "^3.1.0"
+  }
+}
