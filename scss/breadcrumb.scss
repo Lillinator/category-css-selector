@@ -1,0 +1,9 @@
+$selector_row: str-split($category_breadcrumb, unquote("|"));
+
+.category-breadcrumb {
+  @each $selector in $selector_row {
+    .category-row[data-name="#{$selector}"] {
+      display: none;
+    }
+  }
+}
