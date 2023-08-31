@@ -1,9 +1,17 @@
-$selector_row: str-split($category_breadcrumb, unquote("|"));
+$selector_row: str-split($category_list, unquote("|"));
 
 .category-breadcrumb {
   @each $selector in $selector_row {
     .category-row[data-name="#{$selector}"] {
-      display: none;
+
+     .search-menu .results .restricted,
+    .category-drop [data-value="#{$iconID}"] .restricted,
+    [href^="/chat/c/#{$lock-icon}"],
+    [href^="/c/#{$lock-icon}"] {
+      .d-icon-lock {     
+    
+    
+    
     }
   }
 }
