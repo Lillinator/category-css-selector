@@ -1,6 +1,50 @@
-$boxes: str-split($category_boxes_with_subcategories, unquote("|"));
-$topic_boxes: str-split($category_boxes_wih_featured_topics, unquote("|"));
+
 $list: str-split($category_list, unquote("|"));
+
+$selector_row: str-split($category_breadcrumb, unquote("|"));
+
+.category-breadcrumb {
+  @each $selector in $selector_row {
+    .category-row[data-name="#{$selector}"] {
+      display: none;
+    }
+  }
+}
+
+
+
+.category-list {
+  @each $list_item in $list {
+    [data-category-id="#{$list_item}"] {
+      display: none;
+    }
+  }
+}
+
+
+
+
+@if $categories_and_channels !="" {
+
+  @each $item in $list {
+
+    $item: str-to-list("#{$item}", ";");
+    $nested-list: append($nested-list, $item);
+  }
+
+  @each $lock-icon, $iconID in $nested-list {
+
+    .search-menu .results .restricted,
+    .category-drop [data-value="#{$iconID}"] .restricted,
+    [href^="/chat/c/#{$lock-icon}"],
+    [href^="/c/#{$lock-icon}"] {
+      .d-icon-lock {
+        display: none;
+      }
+    }
+  }
+}
+
 
 .category-boxes {
   @each $box in $boxes {
@@ -18,10 +62,4 @@ $list: str-split($category_list, unquote("|"));
   }
 }
 
-.category-list {
-  @each $list_item in $list {
-    [data-category-id="#{$list_item}"] {
-      display: none;
-    }
-  }
-}
+
